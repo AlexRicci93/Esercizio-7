@@ -1,0 +1,34 @@
+.GRID {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header header header"
+    "main main2 main3"
+    "footer footer main3";
+
+}
+
+#green {
+    grid-area: header;
+
+}
+
+#yellow {
+    grid-area: main;
+}
+
+
+#red {
+    grid-area: main2;
+}
+
+
+#blue {
+
+    grid-area: main3;
+}
+
+#orange {
+    grid-area: footer;
+}
